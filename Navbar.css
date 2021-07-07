@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    padding: 7px; 
+    margin:10px;
+}
+
+.mainNav{
+   
+    flex-direction: row;
+    /* border-radius: 100px; */
+   
+    display:flex;
+    justify-content: space-between;
+    background-color:#EBEBEB;
+    /* float:right; */
+    padding-left: 700px;
+    margin:10px;
+    font-size:20px;
+}
+
+
+.logo{
+    border-radius: 30px;
+    /* display:inline-block; */
+    float: left;
+    color:black;
+}
